@@ -22,4 +22,4 @@ Implement a last-in-first-out (LIFO) stack using only two queues. The implemente
 [[], [1], [2], [], [], []]  
 **Output**  
 [null, null, null, 2, 2, false]  
-</br>~~
+</br>
