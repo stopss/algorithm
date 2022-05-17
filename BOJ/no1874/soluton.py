@@ -1,5 +1,4 @@
 n = int(input())
-
 stack = []
 result = []
 count = 1
@@ -7,7 +6,6 @@ message = True
 
 for i in range(n):
     num = int(input())
-
     # 스택 push
     while count <= num:
         stack.append(count)
