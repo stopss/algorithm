@@ -1,5 +1,4 @@
 # No.622 Design circular Queue
-***
 https://leetcode.com/problems/design-circular-queue/  
 </br>
 
