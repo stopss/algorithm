@@ -1,6 +1,6 @@
 from typing import List
 
-# for문 중첩 - time error
+# for문 중첩 - 시과 초과
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         max_diff = 0
