@@ -1,4 +1,3 @@
-from collections import deque
 
 count = 0
 
@@ -12,7 +11,7 @@ def dfs(idx, value, numbers, target):
         return
 
     dfs(idx + 1, value + numbers[idx], numbers, target)
-    dfs(idx + 1, value + numbers[idx], numbers, target)
+    dfs(idx + 1, value - numbers[idx], numbers, target)
 
 
 def solution(numbers, target):
@@ -22,6 +21,8 @@ def solution(numbers, target):
    return count
 
 
-numbers = [4,1,2,1]
-target = 4
+# numbers = [4,1,2,1]
+# target = 4
+numbers = [1,1,1,1,1]
+target = 3
 print(solution(numbers, target))
