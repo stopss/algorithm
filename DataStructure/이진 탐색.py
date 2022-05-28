@@ -65,14 +65,14 @@ def binary_search(n_arr, target):
     n_arr.sort()
 
     left = 0
-    right = n
+    right = n - 1
     while left <= right:
         mid = (left + right) // 2
         if n_arr[mid] == target:
             return mid
         elif n_arr[mid] < target:
             left = mid + 1
-        elif:
+        else:
             right = mid - 1
     return None
 
